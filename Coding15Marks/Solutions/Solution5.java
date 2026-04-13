@@ -12,18 +12,13 @@ public class Solution5 {
         vowelsSet.add('i');
         vowelsSet.add('o');
         vowelsSet.add('u');
-        vowelsSet.add('A');
-        vowelsSet.add('e');
-        vowelsSet.add('I');
-        vowelsSet.add('O');
-        vowelsSet.add('U');
 
         StringBuilder sb = new StringBuilder();
 
         String[] arr = sentence.split(" ");
 
         for (String str: arr) {
-            if (vowelsSet.contains(str.charAt(0))) {
+            if (vowelsSet.contains(Character.toLowerCase(str.charAt(0)))) {
                 sb.append(str.charAt(0));
             }
         }

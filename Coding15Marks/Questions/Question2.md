@@ -11,7 +11,7 @@ str = "experience"
 
 **Output:**
 ```
-experinc
+exprinc
 ```
 
 ## Constraints
