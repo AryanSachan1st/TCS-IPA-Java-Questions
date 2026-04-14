@@ -124,6 +124,7 @@ public class Solution5 {
 
             flights[i] = flight;
         }
+        sc.nextLine();
 
         System.out.print("Enter test origin: ");
         String testOrigin = sc.nextLine();
